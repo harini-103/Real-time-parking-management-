@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="fine-rule">!! Fine: ₹10 for every 1 minute overstayed !!</div>
+    <h1>Parking Management System</h1>
+    <label>Car Number: <input type="text" id="carNumber" placeholder="Enter Car No."></label>
+    <label>Duration (minutes): <input type="number" id="duration" min="1" placeholder="Enter Time"></label>
+    <button onclick="parkCar()">Park</button>
+    <div class="container">
+        <div class="left-side" id="leftParking"></div>
+        <div class="right-side" id="rightParking"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
