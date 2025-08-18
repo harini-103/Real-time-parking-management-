@@ -17,6 +17,7 @@ In the meantime, other cars can come for parking. When the parking system is ful
 After the time has reached 0 min, a notification will pop up asking the user to remove the car otherwise will have to pay the fine. If not removed at 0 min then the time will reach in minus indicating overstaying.
 When removed after overstaying, a notification will pop up that you have a fine to pay, the user will click ok and then the immediate next notification will show the fine calculated that they have to pay. When clicked ok then then the fine has paid and the spot will be vacanted again.
 Simultaneously, the time will be calculated for different slots who are reserved.
+
 PREVIEW OF THE PARKING MANAGEMENT SYSTEM: 
 <img width="1919" height="932" alt="image" src="https://github.com/user-attachments/assets/97a0882b-c155-4bcb-9d9a-e80650b55f1a" />
 <img width="1919" height="931" alt="image" src="https://github.com/user-attachments/assets/6de20fc1-9b9a-481f-9e26-096ae1ffe3ca" />
